@@ -1,0 +1,12 @@
+
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "ReadApprovedApplicationSecret",
+      "Effect": "Allow",
+      "Action": "secretsmanager:GetSecretValue",
+      "Resource": "arn:aws:secretsmanager:eu-central-1:111122223333:secret:ari/application/config-??????"
+    }
+  ]
+}

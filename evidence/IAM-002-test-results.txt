@@ -1,0 +1,10 @@
+test_baseline_exposes_privileged_role (test_iam002.IAM002Tests.test_baseline_exposes_privileged_role) ... ok
+test_both_controls_block_assumption (test_iam002.IAM002Tests.test_both_controls_block_assumption) ... ok
+test_hardened_caller_blocks_assumption (test_iam002.IAM002Tests.test_hardened_caller_blocks_assumption) ... ok
+test_hardened_trust_blocks_assumption (test_iam002.IAM002Tests.test_hardened_trust_blocks_assumption) ... ok
+test_hardened_trust_recognizes_security_admin (test_iam002.IAM002Tests.test_hardened_trust_recognizes_security_admin) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK

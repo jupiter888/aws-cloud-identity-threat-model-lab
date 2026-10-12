@@ -1,0 +1,28 @@
+test_assume_role_respects_trust_explicit_deny (test_evaluator_security.EvaluatorSecurityTests.test_assume_role_respects_trust_explicit_deny) ... ok
+test_explicit_deny_overrides_unsupported_condition (test_evaluator_security.EvaluatorSecurityTests.test_explicit_deny_overrides_unsupported_condition) ... ok
+test_identity_explicit_deny_overrides_allow (test_evaluator_security.EvaluatorSecurityTests.test_identity_explicit_deny_overrides_allow) ... ok
+test_trust_explicit_deny_overrides_allow (test_evaluator_security.EvaluatorSecurityTests.test_trust_explicit_deny_overrides_allow) ... ok
+test_unmatched_identity_action_is_denied (test_evaluator_security.EvaluatorSecurityTests.test_unmatched_identity_action_is_denied) ... ok
+test_unsupported_condition_must_not_allow (test_evaluator_security.EvaluatorSecurityTests.test_unsupported_condition_must_not_allow) ... ok
+test_unsupported_notaction_and_notresource (test_evaluator_security.EvaluatorSecurityTests.test_unsupported_notaction_and_notresource) ... ok
+test_baseline_allows_approved_object (test_iam001.IAM001Tests.test_baseline_allows_approved_object) ... ok
+test_baseline_exposes_restricted_object (test_iam001.IAM001Tests.test_baseline_exposes_restricted_object) ... ok
+test_hardened_denies_restricted_object (test_iam001.IAM001Tests.test_hardened_denies_restricted_object) ... ok
+test_hardened_denies_unrelated_bucket (test_iam001.IAM001Tests.test_hardened_denies_unrelated_bucket) ... ok
+test_hardened_preserves_approved_access (test_iam001.IAM001Tests.test_hardened_preserves_approved_access) ... ok
+test_baseline_exposes_privileged_role (test_iam002.IAM002Tests.test_baseline_exposes_privileged_role) ... ok
+test_both_controls_block_assumption (test_iam002.IAM002Tests.test_both_controls_block_assumption) ... ok
+test_hardened_caller_blocks_assumption (test_iam002.IAM002Tests.test_hardened_caller_blocks_assumption) ... ok
+test_hardened_trust_blocks_assumption (test_iam002.IAM002Tests.test_hardened_trust_blocks_assumption) ... ok
+test_hardened_trust_recognizes_security_admin (test_iam002.IAM002Tests.test_hardened_trust_recognizes_security_admin) ... ok
+test_baseline_allows_approved_secret (test_iam003.IAM003Tests.test_baseline_allows_approved_secret) ... ok
+test_baseline_exposes_restricted_secret (test_iam003.IAM003Tests.test_baseline_exposes_restricted_secret) ... ok
+test_hardened_denies_restricted_secret (test_iam003.IAM003Tests.test_hardened_denies_restricted_secret) ... ok
+test_hardened_denies_secret_deletion (test_iam003.IAM003Tests.test_hardened_denies_secret_deletion) ... ok
+test_hardened_denies_unrelated_secret (test_iam003.IAM003Tests.test_hardened_denies_unrelated_secret) ... ok
+test_hardened_preserves_approved_access (test_iam003.IAM003Tests.test_hardened_preserves_approved_access) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.005s
+
+OK

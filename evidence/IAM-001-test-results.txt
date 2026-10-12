@@ -1,0 +1,10 @@
+test_baseline_allows_approved_object (test_iam001.IAM001Tests.test_baseline_allows_approved_object) ... ok
+test_baseline_exposes_restricted_object (test_iam001.IAM001Tests.test_baseline_exposes_restricted_object) ... ok
+test_hardened_denies_restricted_object (test_iam001.IAM001Tests.test_hardened_denies_restricted_object) ... ok
+test_hardened_denies_unrelated_bucket (test_iam001.IAM001Tests.test_hardened_denies_unrelated_bucket) ... ok
+test_hardened_preserves_approved_access (test_iam001.IAM001Tests.test_hardened_preserves_approved_access) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK

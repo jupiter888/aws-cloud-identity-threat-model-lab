@@ -1,0 +1,44 @@
+
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+*.auto.tfvars
+.aws/
+credentials
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Terraform and infrastructure tooling
+.terraform/
+*.tfplan
+crash.log
+crash.*.log
+
+# Local output and generated evidence
+outputs/
+logs/
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
