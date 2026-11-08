@@ -1,4 +1,6 @@
-# AWS Cloud Identity Threat Modeling Lab
+# Project 4 — AWS Cloud Identity Threat Modeling Lab
+
+**AWS IAM Security | Cloud Identity Threat Modeling | Least Privilege | Privilege Escalation | Trust Policies | Security Architecture**
 
 ## Overview
 
